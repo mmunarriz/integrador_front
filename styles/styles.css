@@ -6,6 +6,11 @@
 header {
   overflow: hidden;
 }
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
 
 ._text-zone {
   width: 100%;
@@ -19,5 +24,11 @@ header {
 
 footer {
   background: rgb(24, 26, 37);
-  background: linear-gradient(90deg, rgba(24, 26, 37, 1) 0%, rgba(24, 26, 37, 1) 4%, rgba(21, 43, 85, 1) 100%, rgba(6, 32, 48, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(24, 26, 37, 1) 0%,
+    rgba(24, 26, 37, 1) 4%,
+    rgba(21, 43, 85, 1) 100%,
+    rgba(6, 32, 48, 1) 100%
+  );
 }
